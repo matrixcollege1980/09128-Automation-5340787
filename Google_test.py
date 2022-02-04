@@ -1,2 +1,2 @@
 def test_google_search():
-    assert 10, "Google search is producing at least 10 results"
+   assert 10, "Google will give 10 search result"
