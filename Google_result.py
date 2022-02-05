@@ -7,6 +7,6 @@ driver = webdriver.Chrome(ChromeDriverManager().install())
 driver.get("https://www.google.com/")
 
 def google_search():
-    search_google = driver.find_element(By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[1]/div/span/svg')
-    search_google.send_keys("Github Tutorial")
-    search_google.click()
+    SearchBtn = driver.find_element(By.XPATH, '/html/body/div[1]/div[3]/form/div[1]/div[1]/div[1]/div/div[1]/div/span/svg')
+    SearchBtn.send_keys("Github Tutorial")
+    SearchBtn.click()
